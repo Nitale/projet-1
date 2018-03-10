@@ -1,3 +1,10 @@
 language: ruby
 rvm:
 - 2.3.5
+deploy:
+  provider: heroku
+  api_key:
+    secure: X2+nE8sflfgOyTKKMARumA5QoS2bHxNuMIvgkjScwraHktGm+dAGIeIXgbRTxSz54A/nbTdC+vC9iFAW1pkWl5z4R2IIb3sz40CKBjortkWSEU8GlKsTtou+P7KXo+QeiUBMDWAOca3dMUYulGiZIxWpGmNO80DCrrJ5LRn5bO8sf3HH0/MglHzGaeZW7/P3+8FNRQ+uandO+AYOvYTSgRjRXCOlJt9W67eP508O/fKSxR1rcBaHgOwLiTAwYGsWF23S/bgN6aDyQ7ldsV/dLoBuoOma/j+QH1K5rCGZDMDC7w+CSzuX4K3wP9i4iDBDJCE3s9rUck9YKhKY429puofwtefiF7NN7q+DbNRjNW9bO5KyMd7KJM6ikdQENcEATmRYfpJ0WJ6dd/LUkUvcOoLO1yDQ0yxZEqJ/JruzX2QUJmIna8ZAMB44KWg/kt/+2xUuQZgCNmJb7SJzG6ocl62E3JesJqTVmboNC3Cw9YIbpMYNaGzjma3FVOhff0zAMCiw6/BT8eC7c+B7jGQIkQ3dwmStGawH+MFwRqY2A193NRRrC7zF415bhtkiH2w60RmOB1oc1YB+YUVlI/RWKE2BH2aoOOZlEXaLrykP2Oe9OOo1TtuAi4xqLfD3AqfsIu1kwXPWnje9oRS1zWtNprWwwe8jqsZiwTOUlc2Aw8k=
+  app: lpa2sgadot
+  on:
+    repo: LPA2-Automne2016/projet
